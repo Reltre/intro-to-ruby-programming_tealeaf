@@ -1,0 +1,2 @@
+5. The first give you 3 as a return value and the second throws an error.
+6. That an object 'shoes' was refrenced on line three.  It is either out of scope or has not been declared yet.
