@@ -1,0 +1,11 @@
+    def equal_to_four(x)
+      if x == 4
+        puts "yup"
+      else
+        puts "nope"
+    end
+
+    equal_to_four(5)
+
+    Why does the above code give an error, and how can it be fixed?
+    Ans: The conditiional statement is missing and end keyword after the puts"nope" , add end there and it will fix the problem.
