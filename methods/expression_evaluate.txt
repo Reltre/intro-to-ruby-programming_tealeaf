@@ -1,0 +1,5 @@
+1. x = 2 //Returns nil and assigns 2 to the variable x
+2. Outputs x to the screen, the value outputed will be 2. Returns nil.
+3. Prints "Joe" to the screen,  this will not include a newline at the end of the string as puts does.
+4. Assign the String "four" to the variable four.
+5. Prints "nothing" that is stored in the variable something. Returns nil.
