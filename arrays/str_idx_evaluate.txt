@@ -1,0 +1,5 @@
+string = "Welcome to Tealeaf Academy!"
+a = string[6] : Returns 'e'
+b = string[11] : Returns 'T'
+c = string[19] : Returns 'A'
+

@@ -1,0 +1,2 @@
+arr = [["test", "hello", "world"],["example", "mem"]]
+To print the word example, first go to the second index of index 1 in this case of the outer array "arr".  Then choose the first index or index 0 to choose "example".  Result : puts arr[1][0] #arr.last.first will also work

@@ -1,0 +1,4 @@
+1. This return an array filled with product of the array arr and the array [1,2,3] so [[b,1],[b,2],[b,3][a,1],[a,2],[a,3]] . The second expression will remove the object in index 1 of the first array. 
+Result: [["b"],["b",2],["b",3]["a",1],["a",2],["a",3]] 
+
+2. This will give [["b"],["a",[1,2,3]] 
