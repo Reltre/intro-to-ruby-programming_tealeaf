@@ -1,0 +1,10 @@
+Given the following code...
+
+x = "hi there"
+my_hash = {x: "some value"}
+my_hash2 = {x => "some value"}
+
+What's the difference between the two hashes that were created?
+
+The first hsah uses the symbol x, as the key for "some value"
+The second hash uses the string stored in variable x as the key for "some value"
