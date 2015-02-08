@@ -1,0 +1,16 @@
+Script started on Sun Feb  8 12:51:57 2015
+bash-4.3$ irb
+irb(main):001:0> d = Dir.new(".")
+=> #<Dir:.>
+irb(main):002:0> while file = d.rad[K[Kead do
+irb(main):003:1* puts "#{file} hash[K extension .txt" if File.extname(file) == ".tx t"
+irb(main):004:1> end
+file_2_file.txt has extension .txt
+original_file.txt has extension .txt
+simple_file.txt has extension .txt
+=> nil
+irb(main):005:0> quit
+bash-4.3$ exit
+exit
+
+Script done on Sun Feb  8 13:01:10 2015

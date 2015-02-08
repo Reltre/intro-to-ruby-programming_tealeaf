@@ -1,0 +1,17 @@
+Script started on Sun Feb  8 12:27:18 2015
+bash-4.3$ irb
+irb(main):001:0> simple = File.read("simple_file.txt")
+=> "Hellow new worldHere we are with a new line of textWriting to files in Ruby is simple."
+irb(main):002:0> original = File.new("r[Koriginal_file.txt:[K", "w+")
+=> #<File:original_file.txt>
+irb(main):003:0> File.open(original,"a") do |file|
+irb(main):004:1* file.puts simple
+irb(main):005:1> end
+=> nil
+irb(main):006:0> File.read(original)
+=> "Hellow new worldHere we are with a new line of textWriting to files in Ruby is simple.\n"
+irb(main):007:0> quit
+bash-4.3$ e[Kexit
+exit
+
+Script done on Sun Feb  8 12:30:21 2015

@@ -1,0 +1,1 @@
+Hellow new worldHere we are with a new line of textWriting to files in Ruby is simple.
