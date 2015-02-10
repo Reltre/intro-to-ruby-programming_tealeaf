@@ -1,0 +1,13 @@
+Given:
+def execute(block)
+  block.call
+end
+
+execute { puts "Hello from inside the execute method!" }
+
+Gives us.. :
+
+    block.rb1:in `execute': wrong number of arguments (0 for 1) (ArgumentError)
+    from test.rb:5:in `<main>'
+
+Why: The block is not passed as a reference.  Since a block is not an object, it can not be stored in the "block parameter" in the method execute.  We would need to add an & to the beginning of the block parameter for this to work.

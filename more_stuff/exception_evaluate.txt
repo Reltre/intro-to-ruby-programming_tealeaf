@@ -1,0 +1,1 @@
+Exception handling is a way for a ruby program to deal with an error(or exception) it arises.  By using exception handling we can avoid having our program end prematurely due to a missed exception or error.
