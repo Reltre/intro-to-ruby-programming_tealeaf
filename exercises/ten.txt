@@ -1,0 +1,6 @@
+Hash values can be arrays
+h = {}
+h[:a] = [1,2,3]
+
+You can also have an array of hashes
+arr = [{a: 1,b:2},{c: 3, d: 4}]

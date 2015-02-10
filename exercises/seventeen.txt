@@ -1,0 +1,13 @@
+Given:
+
+hash1 = {shoes: "nike", "hat" => "adidas", :hoodie => true}
+hash2 = {"hat" => "adidas", :shoes => "nike", hoodie: true}
+
+if hash1 == hash2
+  puts "These hashes are the same!"
+else
+  puts "These hashes are not the same!"
+end
+
+What will this output:  This will output "These hashes are the same"
+In a hash the order in which the key values pairs are stored does not matter, since you can directly access a value based on it's key.  It was only after Ruby 1.9 that hashes even rememberd the order in which kv pairs are stored.
